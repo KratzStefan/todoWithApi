@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stefan Kratz">
+    <link rel="stylesheet" href="https://unpkg.com/modern-normalize@latest/modern-normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Todo App mit Api">
+    <title>Websitename</title>
+</head>
+
+<body>
+    <div>
+        <h1>Erledige deinen Scheiß!</h1>
+        <input type="text" id="neuesTodoInput" />
+        <button id="neuerTodoBtn">Neues Todo</button>
+    </div>
+    <div>
+        <h2>Filter & Optionen</h2>
+        <label><input type="radio" name="filter" value="all" checked> Alle</label>
+        <label><input type="radio" name="filter" value="open"> Offen</label>
+        <label><input type="radio" name="filter" value="done"> Erledigt</label>
+    </div>
+    <div>
+        <button id="aufgabenLoeschen">Erledigte Aufgaben löschen</button>
+    </div>
+    <div>
+        <h2>Todos</h2>
+        <ul id="liste"></ul>
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
